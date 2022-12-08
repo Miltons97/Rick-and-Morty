@@ -26,7 +26,7 @@ useEffect(() => {
 function Login (userData){
   if(userData.username === username && userData.password === password){
     setAccess(true);
-    navigate ("/home");
+    navigate ("/home");   
 
   }else{
     alert('Usuario o Contraseña incorrecta')
@@ -38,7 +38,7 @@ function Login (userData){
 function onSearch(character) {
   fetch(`https://rickandmortyapi.com/api/character/${character}`)
      .then((response) => response.json())
-     .then((data) => {
+     .then((data) => { 
         if (data.name) {
            setCharacters((oldChars) => [...oldChars, data]);
         } else { 
@@ -62,7 +62,7 @@ function onClose (id) {
         <Route path='/home' element={<Cards characters = {characters} onClose={onClose}/>}
         />
         <Route path='/about'  element={<About />}/>
-        <Route path='/detail/:id' element={<Detail />}/>
+        <Route path='/detail/:id' element={<Detail />}/> 
       </Routes>
   
       
@@ -74,3 +74,4 @@ function onClose (id) {
 }
 
 export default App
+   
