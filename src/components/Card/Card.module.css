@@ -1,0 +1,52 @@
+@font-face {
+    font-family: rick_and_morty;
+    src: url('../../Recursos/PermanentMarker-Regular.ttf');
+}
+
+
+/* .card{
+    width:25em;
+    height: 30em; 
+    border: solid;
+    font-family: rick_and_morty;
+    color: rgb(0, 0, 0);
+   
+    border-radius: 2em;
+    object-fit: cover;
+
+}
+
+
+.card button{
+    border-radius: 0.5em;
+    margin: 0.5em;
+}
+
+.card button:hover{
+
+    border-radius: 0.5em;
+    margin: 0.5em;
+    cursor:all-scroll
+} */
+
+.card{
+   background-image: linear-gradient( #f09819,  #edde5d);
+
+    border-radius: 3%;
+    border: solid;
+    font-family: rick_and_morty;
+    color: rgb(0, 0, 0);
+   
+}
+
+.card button:hover{
+
+    border-radius: 0.5em;
+    margin: 0.5em;
+  
+} 
+.card button{
+    border-radius: 0.5em;
+    
+
+}

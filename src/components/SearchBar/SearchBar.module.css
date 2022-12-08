@@ -1,0 +1,28 @@
+
+
+.search {
+    padding: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 240px;
+  height: auto;
+  border-radius: 30px;
+  
+}
+   
+.button{
+    color: white;
+  border-radius: 30px;
+  height: 40px;
+  background-image: linear-gradient(to top right, blue, purple , yellow);
+  transition: cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+}
+.button:hover{
+    transform: translateY(-3px);
+    margin: 0.5em;
+}
+
+.search input{
+    border-radius: 30px;
+}
