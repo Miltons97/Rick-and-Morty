@@ -67,7 +67,7 @@ function onClose (id) {
   
       
       
-      </div>
+      </div>    
   
    
   )
