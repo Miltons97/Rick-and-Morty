@@ -32,7 +32,7 @@ function Card(props) {
 
 
    return (
-      <div className={styles.card}>
+      <div className={styles.card}>   
         
          {isFav ? (
           <button onClick={handleFavorite}>❤️</button>
